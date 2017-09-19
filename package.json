@@ -1,0 +1,22 @@
+{
+  "name": "gitpipe",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vprasanth/gitpipe.git"
+  },
+  "author": "Prasanth Vaaheeswaran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vprasanth/gitpipe/issues"
+  },
+  "homepage": "https://github.com/vprasanth/gitpipe#readme",
+  "dependencies": {
+    "simple-git": "1.77.0"
+  }
+}
