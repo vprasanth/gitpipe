@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "branch": "master",
+  "origin": "git+https://github.com/vprasanth/gitpipe.git",
+  "remote": [
+    {
+      "repo": "git@github.com:vprasanth/gp-dummy-1.git",
+      "name": "gp-dummy-1"
+    }
+  ]
+}

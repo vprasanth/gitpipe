@@ -1,6 +1,11 @@
 var git = require('simple-git')();
+var manifest = require('./manifest');
 
-git.status(function(err, msg){
-  if(err) return 1;
-  console.log(msg)
-});
+function sync(manifest) {
+  const remote = manifest.remote[0];
+  git
+    .addRemote(remote.name, remote.repo)
+    .push(remote.name, 'master');
+}
+
+sync(manifest);
