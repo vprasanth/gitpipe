@@ -17,7 +17,8 @@
     "url": "https://github.com/vprasanth/gitpipe/issues"
   },
   "homepage": "https://github.com/vprasanth/gitpipe#readme",
-  "dependencies": {
-    "simple-git": "1.77.0"
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "4.9.0"
   }
 }
