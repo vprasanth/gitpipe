@@ -1,11 +1,10 @@
 {
   "name": "gitpipe",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.1.0",
+  "description": "![gitpipe](./logo.png)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,9 +15,5 @@
   "bugs": {
     "url": "https://github.com/vprasanth/gitpipe/issues"
   },
-  "homepage": "https://github.com/vprasanth/gitpipe#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "eslint": "4.9.0"
-  }
+  "homepage": "https://github.com/vprasanth/gitpipe#readme"
 }
